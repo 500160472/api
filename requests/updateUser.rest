@@ -1,0 +1,6 @@
+PATCH http://localhost:5000/users/9f0a6920-ef65-4051-bff9-4c343e5a0b31 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Joshua - IOPEWQ"
+}

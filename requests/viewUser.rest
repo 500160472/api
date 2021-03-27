@@ -1,0 +1,6 @@
+GET http://localhost:5000/users/df2a536c-e9e3-4bcc-b676-cf331b04ff55 HTTP/1.1
+content-type: application/json
+
+{
+
+}

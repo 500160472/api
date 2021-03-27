@@ -1,0 +1,116 @@
+{
+
+"user": "Joshua",
+
+
+    /"information"
+        "id",
+        "firstName",
+        "lastName",
+        "telephone[]",
+            "home",
+            "bricklaneWork"
+        "mobile[]",
+            "work",
+            "play",
+        "email[]",
+            "email1",
+            "email2",
+            "email1"
+        "dob",
+        "city",
+        "Facebook",
+        "Instagram",
+        "companyName",
+        "linkedContacts",
+        "country"
+
+
+
+    /"contacts"
+        "/get"
+            "id",
+            "contactType",
+                //Work or Play
+            "firstName",
+            "lastName",
+            "telephone",
+            "mobile",
+            "email",
+            "dob",
+            "city",
+            "Facebook",
+            "Instagram",
+            "companyName",
+            "linkedContacts",
+            "tags",
+            "country"
+        "/post"
+        "/delete"
+        "/updatee"
+    
+
+
+
+    /"todos"
+    
+
+
+
+
+    
+    
+    /"home"
+        "shopping"
+        "tasks"
+        "bills"
+    
+    
+    /"work"
+        "physicalInventory" // EXAMPLE = COMPUTER / CAMERA / HARD DRIVE
+            "id"
+            "name"
+            "invoice"
+            "purchaseAmmount"
+            "purchaseDate"
+            "storedAt"
+            "comments"
+            "tags"
+            "category"
+            "linkedAccessories"
+            
+        "digitalInventory" // EXAMPLE = PIECE OF SOFTWARE / LICENSE
+            "id"
+            "name"
+            "invoice"
+            "purchaseAmmount"
+            "purchaseDate"
+            "code"
+            "linkedDevices"
+            "comments"
+            "tags"
+            "category"
+
+        "subscriptions" // EXAMPLE = ACCOUNTS AND SUBSCRIPTION SERVICES / ENVATO / ADOBE / CANVA
+            "id"
+            "name"
+            "invoice"
+            "purchaseAmmount"
+            "purchaseDate"
+            "code"
+            "linkedDevices"
+            "comments"
+            "tags"
+            "category"
+            
+
+            
+        
+        "shopping"
+        "tasks"
+        "bills"
+
+
+
+
+}
