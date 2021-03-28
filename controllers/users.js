@@ -1,5 +1,26 @@
 import { v4 as uuidv4 } from 'uuid';
-let users = [];
+let users = [    
+    {
+        firstName: "Joshua",
+        lastName: "Farmer",
+        age: 24,
+        emoji: "💜",
+        contactInformation: {
+            personalEmail: "joshua@iopewq.uk",
+            workEmail: "josh@bricklane-media.co.uk",
+            personalMobile: "07306022351",
+            workMobile: "07"
+        },
+        currentAddress: {
+            flatNumber: "3/3",
+            buildingNumber: "82",
+            streetName: "Glasgow Road",
+            postCode: "PA1 3PN",
+            city: "Paisley",
+            county: "Renfrewshire",
+            country: "Scotlnad"
+        }   
+    }];
 // LOGIC FOR ../routes/USERS.JS DEFINED ROUTES
 export const getUsers = (req, res) => {
     res.send(users);

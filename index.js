@@ -5,6 +5,7 @@ import bodyParser from 'body-parser';
 
     // IMPORT DEFINED ROUTES 
     import usersRoutes from './routes/users.js';
+    import python from './routes/python.js';
 
 
 
@@ -21,6 +22,7 @@ app.use(cors())
     app.get('/', (req,res) =>  res.send('Hello from [HOMEPAGE]') );
     // -- USERS [/routes/users.js] - usersRoutes
     app.use('/users', usersRoutes);
+    app.use('/python', python);
 
 
 
