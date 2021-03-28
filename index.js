@@ -1,5 +1,6 @@
 // MAIN APP IMPORTS
 import express from 'express';
+import cors from 'cors';
 import bodyParser from 'body-parser';
 
     // IMPORT DEFINED ROUTES 
@@ -11,6 +12,7 @@ import bodyParser from 'body-parser';
 const app = express();
 const PORT = 5000;
 app.use(bodyParser.json());
+app.use(cors())
 
 // MAIN APP HEREE
 

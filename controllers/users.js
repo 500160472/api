@@ -4,7 +4,7 @@ let users = [];
 export const getUsers = (req, res) => {
     res.send(users);
 }
-
+ 
 export const createUser = (req, res) => {
     const user = req.body;
     // PUSH USER WITH UNIQUE GENEERATED USER ID

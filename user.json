@@ -1,33 +1,10 @@
 {
     "firstName": "Joshua",
     "lastName": "Farmer",
+    "personalEmail": "joshua@iopewq.uk",
+    "worklEmail": "josh@bricklane-media.co.uk",
+    "personalMobile": "07306022351",
+    "workMobile": "07",
     "age": 24,
     "emoji": "💜"
-}
-
-
-
-
-// {
-//     firstName: "Joshua",
-//     lastName: "Farmer",
-//     age: 24,
-//     emoji: "💜"
-// },
-// {
-//     firstName: "admin",
-//     lastName: "iopeweq",
-//     age: 0,
-//     emoji: "👁‍🗨"
-// }
-
-
-
-
-
-{
-    "firstName": "Robbie",
-    "lastName": "Hayes",
-    "age": 23,
-    "emoji": "👋"
 }
