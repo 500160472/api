@@ -16,4 +16,9 @@ COPY . .
 
 EXPOSE 5000
 
+<<<<<<< HEAD
 CMD [ "node", "index.js" ]
+=======
+CMD [ "node", "index.js" ]
+
+>>>>>>> aa09a4610b75d39684389c1adcfce5cfb4658363
