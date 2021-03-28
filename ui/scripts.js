@@ -1,12 +1,13 @@
 // api url
 const api_url = 
-      "http://localhost:5000/users";
+    //   "http://localhost:5000/users";
+      "http://161.97.123.112:49160/users";
   
 // Defining async function
 async function getapi(url) {
     
     // Storing response
-    const response = await fetch(url);
+    const response = await fetch(url, {});
     
     // Storing data in form of JSON
     var data = await response.json();
