@@ -1,12 +1,12 @@
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 const { spawn } = require('child_process');
-
+var arg = 'Hello World!';
 
 
 // LOGIC FOR ../routes/PYTHON.JS DEFINED ROUTES
 export const runPython1 = (req, res) => {
-    const ls = spawn('python', ['controllers/python.py', 'hello']);
+    const ls = spawn('python', ['controllers/python.py', arg]);
 
 
     ls.stdout.on('data', (data) => {
@@ -23,12 +23,6 @@ export const runPython1 = (req, res) => {
       
     // sends a message to the Python script via stdin
     // pyshell.send('hello');
-    
-    
-    
-    
-
-
 
 }
  

@@ -1,9 +1,9 @@
-POST http://161.97.123.112:49160/users HTTP/1.1
+POST http://localhost:5000/users HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Joshua",
-    "lastName": "Farmer",
+    "firstName": "Robbie",
+    "lastName": "Hayes",
     "age": 24,
     "emoji": "💜",
     "contactInformation": {

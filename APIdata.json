@@ -114,3 +114,44 @@
 
 
 }
+
+
+
+
+
+
+// {
+//     firstName: "Joshua",
+//     lastName: "Farmer",
+//     age: 24,
+//     emoji: "💜"
+// },
+// {
+//     firstName: "admin",
+//     lastName: "iopeweq",
+//     age: 0,
+//     emoji: "👁‍🗨"
+// }
+
+
+
+
+
+{
+    "firstName": "Robbie",
+    "lastName": "Hayes",
+    "age": 23,
+    "emoji": "👋"
+}
+
+
+
+
+
+,
+    "socialMediaAccounts": {
+        "instagram": "",
+        "facebook": "",
+        "linkedIn": "",
+        "snapchat": "",
+    } 
